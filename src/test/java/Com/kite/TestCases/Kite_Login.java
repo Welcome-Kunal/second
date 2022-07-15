@@ -21,6 +21,7 @@ public class Kite_Login {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("https://opensource-demo.orangehrmlive.com/");
+		System.out.println("Kunal");
 //		Element Xpath
 		driver.findElement(By.xpath("//input[@id=\"txtUsername\"]")).sendKeys(Username);
 		driver.findElement(By.id("txtPassword")).sendKeys(Password);
