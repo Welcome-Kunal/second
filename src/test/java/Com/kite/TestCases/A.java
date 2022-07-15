@@ -36,5 +36,9 @@ public class A {
 			for(int Y=X+1;Y<A.length;Y++) {
 				if(A[X]==A[Y]) {
 					System.out.print(A[Y]+"  ");}}}
+		
+		System.out.println("Kunal Kevate");
+		
+		
 }
 }
